@@ -12,8 +12,8 @@ Servidor web: Uvicorn
 Docker: Despliegue
 
 Instalación y Ejecución
-1. Clonar el Repositorio
-git clone <https://github.com/jonasnisni/appfull.git >
+1. Clonar el Repositorio <br>
+git clone <https://github.com/jonasnisni/appfull.git> <br>
 cd <proyectofull>
 
 2. Ejecución con Docker
