@@ -1,15 +1,15 @@
-Visualización de Datos con FastAPI, Svelte y eCharts
-Descripción
+Visualización de Datos con FastAPI, Svelte y eCharts <br>
+
 Aplicación FullStack que permite visualizar datos en gráficos utilizando FastAPI para el backend y Svelte para el frontend.
 
 La aplicación consume datos desde un archivo data.json y los representa en un gráfico circular (pie chart) y un gráfico de barras (bar plot) utilizando la librería eCharts.
 
-Tecnologías usadas
-Backend: FastAPI
-Frontend: Svelte, Javascript
-Visualización de datos: eCharts.js
-Servidor web: Uvicorn
-Docker: Despliegue
+Tecnologías usadas <br>
+Backend: FastAPI <br>
+Frontend: Svelte, Javascript <br>
+Visualización de datos: eCharts.js <br>
+Servidor web: Uvicorn <br>
+Docker: Despliegue <br>
 
 Instalación y Ejecución
 1. Clonar el Repositorio <br>
