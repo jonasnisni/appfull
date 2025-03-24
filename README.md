@@ -14,10 +14,10 @@ Docker: Despliegue
 Instalación y Ejecución
 1. Clonar el Repositorio <br>
 git clone <https://github.com/jonasnisni/appfull.git> <br>
-cd <proyectofull>
+cd < proyectofull >
 
-2. Ejecución con Docker
-Con Docker y Docker Compose instalados. Luego, ejecuta:
+2. Ejecución con Docker <br>
+Con Docker y Docker Compose instalados. Ejecuta: <br>
 docker-compose up --build
 
 3. Acceder
@@ -29,9 +29,9 @@ Puedes visualizar el frontend desde :
 
 http://localhost:5173
 
-API
-Endpoint Disponible
-GET /data - Retorna los datos almacenados en data.json.
+API <br>
+Endpoint Disponible <br>
+GET /data - Retorna los datos almacenados en data.json. <br>
 {
   "piechart": {
     "labels": ["Producto A", "Producto B", "Producto C", "Producto D"],
