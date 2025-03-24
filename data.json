@@ -1,0 +1,10 @@
+{
+"piechart": {
+"labels": ["Producto A", "Producto B", "Producto C", "Producto D"],
+"values": [25, 30, 20, 25]
+},
+"barplot": {
+"categories": ["Enero", "Febrero", "Marzo", "Abril"],
+"values": [150, 200, 180, 220]
+}
+}

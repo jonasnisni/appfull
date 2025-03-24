@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  backend:
+    image: miimagen
+    build: .
+    container_name: backend_container
+    ports:
+      - "8000:8000"
+    working_dir: /app
+    volumes:
+      - ./:/app
+
+  frontend: #Optimizar esto. Se puede mejorar.
+    image: node:18.12.1-buster-slim
+    container_name: frontend_container
+    working_dir: /app
+    volumes:
+      - ./frontend:/app
+      - /app/node_modules
+    ports:
+      - "5173:5173"
+    command: ["npm", "run", "dev"]
